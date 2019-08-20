@@ -85,6 +85,9 @@ let resumeData = {
       {
         "skillname":"SQL(MySql, SQLServer, PostgreSQL)"
       },
+      {
+        "skillname": "vcs (git, gitflow, github, gitlab)"
+      }
     ],
     "portfolio":[
       {
