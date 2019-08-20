@@ -33,7 +33,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   /*background: #161415 url(../images/header-background.jpg) no-repeat top center;*/
+   background: #161415 url(../images/beach_sunset2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,8 +208,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 184px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }

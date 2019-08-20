@@ -83,35 +83,36 @@ let resumeData = {
         "skillname":"aws(S3, Lambda functions)"
       },
       {
-        "skillname":"SQL(MySql, SQLServer, PostgreSQL)"
-      },
-      {
         "skillname": "vcs (git, gitflow, github, gitlab)"
       }
     ],
     "portfolio":[
       {
         "name":"Chess for SofiaXT",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"web application for an educational software",
+        "imgurl":"images/portfolio/chess_play_app.png",
+        "url": "https://www.sofiaxt.com",
       },
       {
         "name":"Grocery Management",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "description":"personal project for grocery shopping management",
+        "imgurl":"images/portfolio/grocery_shop_app.png",
+        "url": "https://www.grocery-shopping-management.herokuapp.com/",
       },
-      {
+      /*{
         "name":"React Chat",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/project2.png",
+        "url": "",
       },
       {
         "name":"React eCommerce",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+        "imgurl":"images/portfolio/phone.jpg",
+        "url": "",
+      }*/
     ],
-    "testimonials":[
+    /*"testimonials":[
       {
         "description":"This is a sample testimonial",
         "name":"Some technical guy"
@@ -120,7 +121,7 @@ let resumeData = {
         "description":"This is a sample testimonial",
         "name":"Some technical guy"
       }
-    ]
+    ]*/
   }
   
   export default resumeData
