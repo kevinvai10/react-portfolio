@@ -1,14 +1,13 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    //"imagebaseurl":"https://rbhatia46.github.io/",
+    "name": "Kevin Castro",
+    "role": "Full Stack Developer",
+    "linkedinId":"https://www.linkedin.com/in/kevin-castro-953287183/",
+    "roleDescription": " I like both the front end and back end with javascript and other aspects of web development. Also i like reading about new libraries/frameworks on my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/kevin-castro-953287183/",
           "className":"fa fa-linkedin"
         },
         {
@@ -16,49 +15,58 @@ let resumeData = {
           "url":"http://github.com/rbhatia46",
           "className":"fa fa-github"
         },
-        {
+        /*{
           "name":"skype",
           "url":"http://twitter.com/rbhatia46",
           "className":"fa fa-twitter"
-        }
+        }*/
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"Software developer with love for both front end and backend, constantly interested in learning more and implementing technologies related to frontend like javascript libraries or frameworks and about best practices. Also currently interested in learning UI/UX.",
+    "address":"Mexico",
+    "website":"https://github.com/kevinvai",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Universidad Kino",
+        "specialization":"Engineering Degree in Multimedia/web development. ",
+        "MonthOfPassing":"December",
+        "YearOfPassing":"2016",
+        //"Achievements":"Some Achievements"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Alio IT",
+        "specialization":"Full Stack Developer",
+        "MonthOfLeaving":"Current",
+        "YearOfLeaving":"",
+        "Achievements":"Currently working for an American company ClaimRuler as a full-stack developer and assisting in bug fixing, and feature creation or enhancement and improving system performance by improving code's performance and creating or improving stored procedures. For the frontend the tasks include using vainilla javascript and jQuery and also embedded react components. For the backend C#, .NET Framework 4.7 and for the database MySql combined with AWS apis.                                                                      Occasional support to inner projects with AngularJS 1.6    "
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Sofia XT",
+        "specialization":"Junior Javascript Developer",
+        "MonthOfLeaving":"October",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
+        "Achievements":"Full-stack developer with more focus on the frontend area. Tasks involved creating interfaces and algorithms for games or activities needed for kids to learn math. Occasional support on the backend with .NET framework 4.5 and database table design in SQLServer."
+      },
+      {
+        "CompanyName":"Simbo Software Development",
+        "specialization":"Intern",
+        "MonthOfLeaving":"June",
+        "YearOfLeaving":"2017",
+        "Achievements":"Assisted in development of front and back end for multiple web systems and web pages using PHP with Codeigniter framework, javascript, MySQL."
+      },
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Skills",
     "skills":[
+      {
+        "skillname":"Javascript/ES6"
+      },
+      {
+        "skillname":"React js/Redux"
+      },
+      {
+        "skillname":"Node js"
+      },
       {
         "skillname":"HTML5"
       },
@@ -66,27 +74,36 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
-      }
+        "skillname":"C# .Net Framework"
+      },
+      {
+        "skillname":"SQL(MySql, SQLserver, PostgreSQL)"
+      },
+      {
+        "skillname":"aws(S3, Lambda functions)"
+      },
+      {
+        "skillname":"SQL(MySql, SQLServer, PostgreSQL)"
+      },
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "name":"Chess for SofiaXT",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
       },
       {
-        "name":"project2",
+        "name":"Grocery Management",
         "description":"mobileapp",
         "imgurl":"images/portfolio/project.jpg"
       },
       {
-        "name":"project3",
+        "name":"React Chat",
         "description":"mobileapp",  
         "imgurl":"images/portfolio/project2.png"
       },
       {
-        "name":"project4",
+        "name":"React eCommerce",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
       }
