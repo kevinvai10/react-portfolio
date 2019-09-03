@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/header/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
@@ -14,7 +14,7 @@ class App extends React.Component {
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/> 
       </div>
     );
   }

@@ -1,10 +1,27 @@
 import React from 'react';
+import Particles from 'react-particles-js'
+import './Header.css'
 export default class Header extends React.Component {
+  
   render() {
+    const particlesOptions = {
+      particles: {
+        line_linked: {
+          shadow: {
+            enable: false,
+            color: "#3CA9D1",
+            blur: 5,
+            value_area: 800
+          }
+        }
+      }
+    };
+
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       <header id="home">
+        <Particles className="particles" params={particlesOptions}/>
         <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>

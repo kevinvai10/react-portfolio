@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Kevin Castro",
     "role": "Full Stack Developer",
     "linkedinId":"https://www.linkedin.com/in/kevin-castro-953287183/",
-    "roleDescription": " I like both the front end and back end with javascript and other aspects of web development. Also i like reading about new libraries/frameworks on my free time.",
+    "roleDescription": " I like both the front end and back end with javascript and other aspects of web development. Also I like reading about new libraries/frameworks on my free time. Video game player and developer enthusiast.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -12,7 +12,7 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/kevinvai",
           "className":"fa fa-github"
         },
         /*{
@@ -23,7 +23,7 @@ let resumeData = {
       ],
     "aboutme":"Software developer with love for both front end and backend, constantly interested in learning more and implementing technologies related to frontend like javascript libraries or frameworks and about best practices. Also currently interested in learning UI/UX.",
     "address":"Mexico",
-    "website":"https://github.com/kevinvai",
+    "website":"kevin.cbdev@gmail.com",
     "education":[
       {
         "UniversityName":"Universidad Kino",
@@ -96,16 +96,16 @@ let resumeData = {
       {
         "name":"Grocery Management",
         "description":"personal project for grocery shopping management",
-        "imgurl":"images/portfolio/grocery_shop_app.png",
-        "url": "https://www.grocery-shopping-management.herokuapp.com/",
-      },
-      /*{
-        "name":"React Chat",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png",
-        "url": "",
+        "imgurl":"images/portfolio/grocery-shop-app.png",
+        "url": "https://grocery-shopping-management.herokuapp.com/signin",
       },
       {
+        "name":"React Chat",
+        "description":"mobileapp",  
+        "imgurl":"images/portfolio/react-chat.png",
+        "url": "#",
+      },
+      /*{
         "name":"React eCommerce",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg",
