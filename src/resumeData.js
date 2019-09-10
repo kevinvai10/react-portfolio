@@ -89,21 +89,24 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Chess for SofiaXT",
-        "description":"web application for an educational software",
+        "description":`web application for an educational software. \n 
+                      Technologies used: javascript, nodejs, .net`,
         "imgurl":"images/portfolio/chess_play_app.png",
         "url": "https://www.sofiaxt.com",
       },
       {
         "name":"Grocery Management",
-        "description":"personal project for grocery shopping management",
+        "description":`personal project for grocery shopping management.
+                      Technologies used: ReactJS, Redux, NodeJS, PostgreSQL`,
         "imgurl":"images/portfolio/grocery-shop-app.png",
         "url": "https://grocery-shopping-management.herokuapp.com/signin",
       },
       {
         "name":"React Chat",
-        "description":"mobileapp",  
+        "description":`Simple React chat. Currently down to add groups feature.
+                      Technologies used: ReactJS, NodeJS, SocketIO, PostgreSQL`,  
         "imgurl":"images/portfolio/react-chat.png",
-        "url": "#",
+        "url": "https://github.com/kevinvai10/react_chat",
       },
       /*{
         "name":"React eCommerce",
