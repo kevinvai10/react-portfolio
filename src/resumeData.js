@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Kevin Castro",
     "role": "Full Stack Developer",
     "linkedinId":"https://www.linkedin.com/in/kevin-castro-953287183/",
-    "roleDescription": " I like both the front end and back end with javascript and other aspects of web development. Also I like reading about new libraries/frameworks on my free time. Video game player and developer enthusiast.",
+    "roleDescription": " I like both the front end and back end with javascript and many other aspects of web development. Also I like reading about new libraries/frameworks on my free time. Video game player and developer enthusiast.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -39,7 +39,7 @@ let resumeData = {
         "specialization":"Full Stack Developer",
         "MonthOfLeaving":"Current",
         "YearOfLeaving":"",
-        "Achievements":"Currently working for an American company ClaimRuler as a full-stack developer and assisting in bug fixing, and feature creation or enhancement and improving system performance by improving code's performance and creating or improving stored procedures. For the frontend the tasks include using vainilla javascript and jQuery and also embedded react components. For the backend C#, .NET Framework 4.7 and for the database MySql combined with AWS apis.                                                                      Occasional support to inner projects with AngularJS 1.6    "
+        "Achievements": `I work for an American company ClaimRuler as a full-stack developer and assist in bug fixing, and feature creation or enhancement and improving system performance, also  creating or improving stored procedures for a .NET project and i work with the  new React JS project adding features and bug fixing.`
       },
       {
         "CompanyName":"Sofia XT",
@@ -51,7 +51,7 @@ let resumeData = {
       {
         "CompanyName":"Simbo Software Development",
         "specialization":"Intern",
-        "MonthOfLeaving":"June",
+        "MonthOfLeaving":"May",
         "YearOfLeaving":"2017",
         "Achievements":"Assisted in development of front and back end for multiple web systems and web pages using PHP with Codeigniter framework, javascript, MySQL."
       },
