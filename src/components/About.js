@@ -1,4 +1,5 @@
 import React from 'react';
+import { black } from 'ansi-colors';
 export default class About extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -10,7 +11,7 @@ export default class About extends React.Component {
             </div>
             <div className="nine columns main-col">
                <h1>About Me</h1>
-               <p style={{fontSize: 20}}>
+               <p style={{fontSize: 18}}>
                {
                   resumeData.aboutme
                }
@@ -19,9 +20,9 @@ export default class About extends React.Component {
                   <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <p style={{fontSize: 16}}>{`If you're interested in working together you can reach me in the following:
-                         kevin.cbdev@gmail.com
-                         https://github.com/kevinvai10`}</p>
+                    <span style={{fontSize: 16}}>{"If you're interested in working together you can reach me in the following:"}</span>
+                    <br></br>
+                    <span style={{fontSize: 16}}>{`kevin.cbdev@gmail.com`}</span>
        				</p>
                   </div>
                </div>
