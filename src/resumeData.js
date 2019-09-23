@@ -104,7 +104,14 @@ let resumeData = {
         "description":`Personal project for grocery shopping management.
                        Technologies used: ReactJS, Redux, NodeJS, PostgreSQL`,
         "imgurl":"images/portfolio/grocery-shop-app.png",
-        "url": "https://grocery-shopping-management.herokuapp.com/signin",
+        "url": "https://grocery-shopping-management.herokuapp.com/",
+      },
+      {
+        "name":"React E-commerce",
+        "description":`Personal project from udemy for practicing modern technologies and cloud technologies. Currently in development.
+                       Technologies used: ReactJS, Redux, Stripe, Firebase`,
+        "imgurl":"images/portfolio/ecommerce.png",
+        "url": "https://crwn-kevin.herokuapp.com/",
       },
       {
         "name":"React Chat",
@@ -112,7 +119,7 @@ let resumeData = {
                        Technologies used: ReactJS, NodeJS, SocketIO, PostgreSQL`,  
         "imgurl":"images/portfolio/react-chat.png",
         "url": "https://github.com/kevinvai10/react_chat",
-      },
+      }
       /*{
         "name":"React eCommerce",
         "description":"mobileapp",

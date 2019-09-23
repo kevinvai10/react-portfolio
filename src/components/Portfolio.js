@@ -1,4 +1,5 @@
 import React from 'react';
+import { black } from 'ansi-colors';
 export default class Porfolio extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -12,11 +13,11 @@ export default class Porfolio extends React.Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href={item.url}>
+                  <div>
+                    <a style={{color: black}} href={item.url}>
                       <img src={`${item.imgurl}`} className="item-img" alt="work"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
+                      <div>
+                        <div>
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
