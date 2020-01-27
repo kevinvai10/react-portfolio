@@ -35,12 +35,22 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Alio IT",
-        "specialization":"Full Stack Developer",
+        "CompanyName":"Aviada",
+        "specialization":"Front End Engineer",
         "MonthOfLeaving":"Current",
         "YearOfLeaving":"",
-        "Achievements": `I currently work with an American company ClaimRuler as a full-stack
-        developer and assist in bug fixing, and feature creation, enhancement and
+        "Achievements": `I currently work with an American company ZEFR as a front end engineer,
+        by creating new features, improving current functionality for our clients and bug fixing.
+        Currently working on different projects with a very modern stack based on React JS, Redux, GraphQL,
+        and more.`
+      },
+      {
+        "CompanyName":"Alio IT",
+        "specialization":"Full Stack Developer",
+        "MonthOfLeaving":"October",
+        "YearOfLeaving":"2019",
+        "Achievements": `Worked with an American company ClaimRuler as a full-stack
+        developer and assisted in bug fixing, and feature creation, enhancement and
         improving system performance, by designing or improving stored procedures and refactoring existing code for a .NET MVC project. Also currently working with the development of a new React JS project by adding features and bug fixing like browser compatibility.`
       },
       {
