@@ -1,0 +1,26 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills {
+    width: 120%;
+}
+
+.skill-card {
+    margin: 20px;
+    padding: 25px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    /* box-shadow: 2px 4px 7px 1px grey; */
+    text-align: center;
+
+    em {
+        text-transform: capitalize;
+    }
+
+    img {
+        height: 140px;
+    }
+}

@@ -71,34 +71,40 @@ let resumeData = {
     "skillsDescription":"Skills",
     "skills":[
       {
-        "skillname":"Javascript/ES6"
+        "skillname":"javascript"
       },
       {
-        "skillname":"React js/Redux"
+        "skillname":"react"
       },
       {
-        "skillname":"Node js"
+        "skillname":"redux"
       },
       {
-        "skillname":"HTML5"
+        "skillname":"node"
       },
       {
-        "skillname":"CSS/Sass"
+        "skillname": "graphQL"
       },
       {
-        "skillname":"C# .Net Framework"
+        "skillname":"css"
       },
       {
-        "skillname":"SQL(MySql, SQLserver, PostgreSQL)"
+        "skillname":"scss"
       },
       {
-        "skillname":"Aws(S3, Lambda functions)"
+        "skillname": "material ui"
       },
       {
-        "skillname": "Vcs (git, gitflow, github, gitlab)"
+        "skillname":"html"
       },
       {
-        "skillname": "Command line(Bash, zsh)"
+        "skillname":"postgreSQL"
+      },
+      {
+        "skillname":"MySQL"
+      },
+      {
+        "skillname": "AWS"
       }
     ],
     "portfolio":[
@@ -122,15 +128,15 @@ let resumeData = {
                        Technologies used: ReactJS, Redux, Stripe, Firebase`,
         "imgurl":"images/portfolio/ecommerce.png",
         "url": "https://crwn-kevin.herokuapp.com/",
-      },
-      {
+      }
+      /*{
         "name":"React Chat",
         "description":`Simple React chat. Currently down to add groups feature.
                        Technologies used: ReactJS, NodeJS, SocketIO, PostgreSQL`,  
         "imgurl":"images/portfolio/react-chat.png",
         "url": "https://github.com/kevinvai10/react_chat",
       }
-      /*{
+      {
         "name":"React eCommerce",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg",
